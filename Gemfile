@@ -7,6 +7,7 @@ gem 'bcrypt-ruby'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'capybara'
 
 group :assets do
   gem 'sass-rails', '~> 5.0'
@@ -29,7 +30,6 @@ group :development, :test do
 end
 
 group :test do 
-  gem 'capybara'
   gem 'factory_girl_rails'
 end
 
